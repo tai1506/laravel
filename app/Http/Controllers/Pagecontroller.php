@@ -112,7 +112,7 @@ class Pagecontroller extends Controller
         return redirect()->back()->with('thongbao','Đặt hàng thành công');
     }
     public function getLogin(){
-        return view('page.trangchu');
+        return view('page.dangnhap');
     }
     public function getSignin(){
         return view('page.dangki');
